@@ -1,0 +1,4 @@
+# Created at 2023-05-07T19:03:02.279
+Boot Manifest-JAR contains absolute paths in classpath 'D:\POMFRamework\Capstone2Spicejet\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

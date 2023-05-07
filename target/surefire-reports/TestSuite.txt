@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 48.148 s <<< FAILURE! - in TestSuite
+testcases.OneWayTripTest.SearchFlight  Time elapsed: 2.243 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73" data-focusable="true" tabindex="0" data-testid="home-page-flight-cta" style="background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;">...</div> is not clickable at point (580, 522). Other element would receive the click: <div class="css-1dbjc4n">...</div>
+  (Session info: chrome=113.0.5672.64)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a8f3f942ac21ec8cd74bb07c90258e43, clickElement {id=3A776ADCBE8545B18432F9F671712339_element_104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56142/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a8f3f942ac21ec8cd74bb07c90258e43)] -> xpath: //div[@class='css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73']]
+Session ID: a8f3f942ac21ec8cd74bb07c90258e43
+	at testcases.OneWayTripTest.SearchFlight(OneWayTripTest.java:19)
+
+testcases.RoundTripTest.SearchFlight  Time elapsed: 5.846 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73" data-focusable="true" tabindex="0" data-testid="home-page-flight-cta" style="background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;">...</div> is not clickable at point (580, 522). Other element would receive the click: <div class="css-1dbjc4n">...</div>
+  (Session info: chrome=113.0.5672.64)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f068956dfacd396eb61ebed53ace775, clickElement {id=B0FDA96EA47F423779C3509BAAC36DDE_element_114}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56202}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56202/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0f068956dfacd396eb61ebed53ace775)] -> xpath: //div[@data-testid='home-page-flight-cta']]
+Session ID: 0f068956dfacd396eb61ebed53ace775
+	at testcases.RoundTripTest.SearchFlight(RoundTripTest.java:23)
+
+testcases.SignUpTest.Signup  Time elapsed: 9.94 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (83, 814)
+  (Session info: chrome=113.0.5672.64)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1e7468b1c3d04d97eadb9df1f748c46, clickElement {id=156B8ACD3A5C6BF7858B1EDE93286E65_element_60}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56379/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a1e7468b1c3d04d97eadb9df1f748c46)] -> xpath: //input[@class='form-check-input mt-02']]
+Session ID: a1e7468b1c3d04d97eadb9df1f748c46
+	at testcases.SignUpTest.Signup(SignUpTest.java:28)
+

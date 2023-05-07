@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">47,519</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.OneWayTripTest</td><td><a href="#m0">SearchFlight</a></td><td rowspan="1">1683481308908</td><td rowspan="1">2236</td></tr><tr class="failedodd"><td rowspan="1">testcases.RoundTripTest</td><td><a href="#m1">SearchFlight</a></td><td rowspan="1">1683481316361</td><td rowspan="1">5855</td></tr><tr class="failedeven"><td rowspan="1">testcases.SignUpTest</td><td><a href="#m2">Signup</a></td><td rowspan="1">1683481340360</td><td rowspan="1">9945</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testcases.LoginPageTest</td><td><a href="#m3">loginwithInvalidcredentials</a></td><td rowspan="1">1683481334793</td><td rowspan="1">1036</td></tr><tr class="passedeven"><td><a href="#m4">loginwithValidcredentials</a></td><td rowspan="1">1683481329167</td><td rowspan="1">1083</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testcases.OneWayTripTest#SearchFlight</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73&quot; data-focusable=&quot;true&quot; tabindex=&quot;0&quot; data-testid=&quot;home-page-flight-cta&quot; style=&quot;background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;&quot;&gt;...&lt;/div&gt; is not clickable at point (580, 522). Other element would receive the click: &lt;div class=&quot;css-1dbjc4n&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=113.0.5672.64)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a8f3f942ac21ec8cd74bb07c90258e43, clickElement {id=3A776ADCBE8545B18432F9F671712339_element_104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56142/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a8f3f942ac21ec8cd74bb07c90258e43)] -&gt; xpath: //div[@class=&apos;css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73&apos;]]
+Session ID: a8f3f942ac21ec8cd74bb07c90258e43
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.OneWayTripPage.SearchBtn(OneWayTripPage.java:53)
+	at testcases.OneWayTripTest.SearchFlight(OneWayTripTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.RoundTripTest#SearchFlight</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73&quot; data-focusable=&quot;true&quot; tabindex=&quot;0&quot; data-testid=&quot;home-page-flight-cta&quot; style=&quot;background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;&quot;&gt;...&lt;/div&gt; is not clickable at point (580, 522). Other element would receive the click: &lt;div class=&quot;css-1dbjc4n&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=113.0.5672.64)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f068956dfacd396eb61ebed53ace775, clickElement {id=B0FDA96EA47F423779C3509BAAC36DDE_element_114}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56202}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56202/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0f068956dfacd396eb61ebed53ace775)] -&gt; xpath: //div[@data-testid=&apos;home-page-flight-cta&apos;]]
+Session ID: 0f068956dfacd396eb61ebed53ace775
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.RoundTripPage.Search(RoundTripPage.java:60)
+	at testcases.RoundTripTest.SearchFlight(RoundTripTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.SignUpTest#Signup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (83, 814)
+  (Session info: chrome=113.0.5672.64)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1e7468b1c3d04d97eadb9df1f748c46, clickElement {id=156B8ACD3A5C6BF7858B1EDE93286E65_element_60}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sanja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56379/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a1e7468b1c3d04d97eadb9df1f748c46)] -&gt; xpath: //input[@class=&apos;form-check-input mt-02&apos;]]
+Session ID: a1e7468b1c3d04d97eadb9df1f748c46
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.SignUpPage.CheckboxAgree(SignUpPage.java:101)
+	at testcases.SignUpTest.Signup(SignUpTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.LoginPageTest#loginwithInvalidcredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.LoginPageTest#loginwithValidcredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

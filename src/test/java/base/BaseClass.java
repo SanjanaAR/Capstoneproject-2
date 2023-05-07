@@ -1,0 +1,21 @@
+package base;
+
+import utilities.Utility;
+import org.testng.annotations.BeforeMethod;
+import java.io.IOException;
+import org.testng.annotations.AfterMethod;
+
+public class BaseClass extends Utility {
+	
+  @BeforeMethod
+  public void StartUp() throws IOException {
+	  driver=initializeDriver();
+	  driver.get(prop.getProperty("url"));
+  }
+
+  @AfterMethod
+  public void close() {
+	  driver.quit();
+  }
+
+}
